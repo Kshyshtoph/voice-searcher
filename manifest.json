@@ -1,0 +1,28 @@
+{
+  "name": "voice controll",
+  "version": "1.0",
+  "description": "scroll up, down, top, bottom, open a new tab, close tab without touching anything with your filthy hands ;)",
+  "manifest_version": 2,
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "./popup.html",
+    "default_title": "open the popup",
+    "default_icon": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    }
+  },
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "options_page": "options.html"
+}
